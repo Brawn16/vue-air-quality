@@ -2,7 +2,7 @@
   "name": "vue-air-quality",
   "version": "0.1.0",
   "engines": {
-    "node": "v9.8.0"
+    "node": "8.10.0"
   },
   "private": true,
   "scripts": {
