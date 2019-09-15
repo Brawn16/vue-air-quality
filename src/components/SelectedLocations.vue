@@ -1,5 +1,5 @@
 <template>
-  <div class='selectedLocations__container'>
+  <div class="selectedLocations__container">
     <SelectedLocation
       v-for="(selectedLocation, index) in selectedLocations"
       v-bind:selectedLocation="selectedLocation"
@@ -27,7 +27,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .selectedLocations__container {
   max-width: 900px;
   padding: 20px;
@@ -36,6 +35,5 @@ export default {
   flex-wrap: wrap;
   margin: 0 auto;
 }
-
 </style>
 
